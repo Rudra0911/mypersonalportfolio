@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my person portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ed87ac365f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+
+        <div class="container">
+            <nav>
+                <img src="Screenshot (1).png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                <div class="header-text">
+                    <p> Front-End Web Developer</p>
+                    <h1>Hi, I'm <span>Rudra</span> chaudhary <br>from moradadabad</h1>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-------about-------->
+    <div id="about">
+        <about class="container">
+            <div class="row">
+                <div class="col-1"> 
+                    <img src="olena-bohovyk-dIMJWLx1YbE-unsplash.jpg">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>As a Fornt end developer,I've prior experience creating and mainting interactive <br> web application,utilizing modern web tecnologies such as javascript HTML and CSS as well an <br>undrstaning of optimization and user experience priciples  of body text</p>
+                <div class="tab-title">
+                    <p class="tab-links activelink" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links" onclick="opentab('education')">education</p>
+                    <p class="tab-links" onclick="opentab('project')">project</p>
+                </div>
+                <div class="tab-content active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML<br>CSS <br>javascript</span><br>font-end web development</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li><span>high school</span><br>high school examination <br>completed from chitragupt inter college <br>moradabad uttar pradesh (2017-2018)</li>
+                        <li><span>intermediate</span><br>intermediate examination <br>completed from chitragupt inter college <br>moradabad uttar pradesh (2019-20120)</li>
+                        <li><span>Bca:bachelor of computer application</span><br>Bca completed from Iftm university moradabad 
+                    (2021-2024)</li>
+
+                    </ul>
+                </div>
+                <div class="tab-content" id="project">
+                    <ul>
+                        <li><span>Business website,E-commerce website,My personal portfolio</span><br>There are three projects<br> completed by using htlm,css and javascript</li>
+                    </ul>
+                </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--------services------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> my services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sunt quos eos cupiditate, accusamus odit suscipit aut nobis dolorem, magnam quis numquam optio dolores, beatae ducimus similique dicta. Provident, ullam. </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <h2>App development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sunt quos eos cupiditate, accusamus odit suscipit aut nobis dolorem, magnam quis numquam optio dolores, beatae ducimus similique dicta. Provident, ullam. </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <h2> Web development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sunt quos eos cupiditate, accusamus odit suscipit aut nobis dolorem, magnam quis numquam optio dolores, beatae ducimus similique dicta. Provident, ullam. </p>
+                    <a href="#"> Learn more</a>
+                </div>
+
+
+            </div>
+        </div>
+        <!--------portfolio------------>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-tittle">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="scott-graham-5fNmWej4tAA-unsplash.jpg">
+                        <div class="layer">
+                            <h3>social media app</h3>
+                            <p> the connect you to the talented people around the world. Download it from playstore</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="ilya-pavlov-OqtafYT5kTw-unsplash.jpg">
+                        <div class="layer">
+                            <h3>web Design</h3>
+                            <p> the connect you to the talented people around the world</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="glenn-carstens-peters-npxXWgQ33ZQ-unsplash (1).jpg">
+                        <div class="layer">
+                            <h3>online shoping website</h3>
+                            <p> the connect you to the talented people around the world. search on google</p>
+                        </div>
+
+                    </div>
+                
+
+                </div>
+                <a href="#" class="btn"> see more</a>
+
+            </div>
+
+
+
+        </div>
+        
+    </div>
+    <!---------------contact-------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p><i class="fas fa-paper-plane"></i> chahanveer644@gmail.com</p>
+                    <p><i class=" fas fa-phone-square-alt"></i> 6398488141</p>
+                    <div class="social-icon">
+                        <a href=""><i class="fab fa-facebook" ></i></a>
+                        <a href=""><i class="fab fa-instagram" ></i></a>
+                        <a href=""><i class="fab fa-twitter-square" ></i></a>
+                        <a href=""><i class="fab fa-linkedin" ></i></a>
+
+                    </div>
+                    <a href="" class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="massege" rows="6" placeholder="your massege"></textarea>
+                        <button type="sumbit" class="btn btn2">sumbit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="mypersonal">
+            <p> This is my personal portfolio <i class="fas fa-heart"></i> website create by Rudra</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-link");
+        var tabcontents = document.getElementsByClassName("tab-content");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+
+        }
+
+    </script>
+    <script>
+        var sidemenu =document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwt2BPqk90t6o1FNkDvn_NbGWqT7UI6nPHUC5Mjze9ygnnfbKu8K_XdSbVe5-gT_1s/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "massage sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
